@@ -4,3 +4,108 @@
   --red: #e50914;
   --hr-color: #222;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+
+
+}
+body{
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+}
+main{
+  position: relative;
+  width: 100vw;
+  height: 100vw;
+}
+
+.bg-img{
+  position: absolute;
+  left: 0 ;
+  right: 0;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  
+}
+
+.logo{
+  width: 140px;
+  height: 100px;
+}
+
+.nav {
+display: flex;
+justify-content: space-between;
+
+}
+.nav > button{
+  padding: 5px 10px 10px 10px ;
+  margin:  20px 20px;
+  height: 30px;
+  color: white;
+  background-color: #e50914;
+  border: #e50914;
+  border-radius: 4px;
+  font-size: 15px;
+ 
+}
+
+.panner-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.panner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+
+}
+
+.panner > h1 {
+font-size: 50px;
+
+}
+
+.panner > .p1 {
+  font-size: 25px;
+  margin-top: 20px;
+  }
+  .email  {
+    width: 500px;
+    height: 50PX;
+    font-size: 20px;
+    padding: 0 5px;
+  margin-top: 20px;
+
+  }
+
+  .emailbtn{
+    margin-top: 10PX;
+  }
+
+.emailbtn > .submit{
+  padding: auto ;
+  height: 54PX;
+  width: 110px;
+  color: white;
+  background-color: #e50914;
+  border: #e50914;
+  font-size: 15px;
+}
+
+.emailbtn{
+  display: flex;
+  justify-content:last baseline;
+  align-items: baseline;
+  
+}
